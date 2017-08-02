@@ -36,7 +36,6 @@
     "pretest": "bash bin/update-env.sh",
     "test": "tape 'test/**/*.js' | tap-spec",
     "test-watch": "bash bin/test-watch",
-    "postinstall": "bash bin/postinstall",
     "prepublish": "npm run lint && npm run build && npm run bootstrap",
     "unsafe-bootstrap": "bash bin/bootstrap",
     "visualizer": "bash bin/ohm-visualizer",
